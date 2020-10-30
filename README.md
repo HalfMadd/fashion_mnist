@@ -7,6 +7,9 @@ Les librairies nécessaires sont dans le fichier requirements.txt et s'installen
 
 ( Installer les modules manuellement en cas d'échec avec `pip install [nom_module]` ) 
 
+Le csv d'entrainement du modèle est disponible ici : https://www.kaggle.com/zalando-research/fashionmnist?select=fashion-mnist_train.csv
+Il est supposé comme placé à la racine du projet
+
 ## Execution
 Deux méthodes pour lancer le serveur :
  - `python app.py`
