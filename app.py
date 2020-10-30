@@ -12,7 +12,7 @@ def index():
 def prediction():
   fashion = Fashion()
   cloth = fashion.predict_image(request.form['url'])
-  return render_template('reponse.html', cloth=request.form['cloth'])
+  return render_template('reponse.html', cloth=cloth)
       
 if __name__ == '__main__':
   app.run()
