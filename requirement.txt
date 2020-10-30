@@ -1,0 +1,12 @@
+flask
+requests
+cv2
+matplotlib
+sklearn
+pickle
+numpy
+pandas
+sklearn
+keras
+Pillow
+io
